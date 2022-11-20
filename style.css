@@ -49,14 +49,21 @@ h1 {
     font-weight: 600;
 }
 
+p {
+    color: #585858;
+    margin: 0px 0px 8px 0px;
+}
+
 
 
 /* Header */
 
 header {
-    background-color: #f1f1f1;
+    background-color: white;
     display: flex;
     height: 64px;
+    position: sticky;
+    top: 0;
 }
 
 header div div {
@@ -88,8 +95,32 @@ header div div {
     padding-bottom: 96px;
 }
 
-#ContentListArea section div {
+.Title {
     padding: 0px 8px 0px 8px;
+}
+
+#box {
+    border: 1px solid #E1E1E1;
+    padding: 24px;
+    border-radius: 12px;
+    width: 100%;
+    text-align: center;
+}
+
+#box img {
+    width: 156px;
+    height: 156px;
+    margin-bottom: 8px;
+}
+
+#FlexRow {
+    display: flex;
+    gap: 24px;
+}
+
+#yea2 {
+    font-weight: 400;
+    font-size: 20px;
 }
 
 
@@ -100,11 +131,6 @@ footer {
     border-top: 1px solid #E1E1E1;
     padding-top: 32px;
     padding-bottom: 32px;
-}
-
-footer p {
-    color: #585858;
-    margin: 0px 0px 8px 0px;
 }
 
 #yea {
