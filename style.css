@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Interop, sans-serif;
+    font-weight: 300;
     letter-spacing: -0.02em;
 }
 
@@ -65,15 +66,6 @@ header div div {
 
 
 
-/* Content List */
-
-#ContentListArea {
-    padding-top: 56px;
-    padding-bottom: 96px;
-}
-
-
-
 /* Banner */
 
 #Banner {
@@ -85,4 +77,41 @@ header div div {
     line-height: 125%;
     margin: 96px 0px 96px 0px;
     color: white;
+}
+
+
+
+/* Content List */
+
+#ContentListArea {
+    padding-top: 56px;
+    padding-bottom: 96px;
+}
+
+#ContentListArea section div {
+    padding: 0px 8px 0px 8px;
+}
+
+
+
+/* Footer */
+
+footer {
+    border-top: 1px solid #E1E1E1;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+footer p {
+    color: #585858;
+    margin: 0px 0px 8px 0px;
+}
+
+#yea {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+#email {
+    color: #0086A4;
 }
