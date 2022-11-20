@@ -62,6 +62,7 @@ header {
     background-color: white;
     display: flex;
     height: 64px;
+    border-bottom: 1px solid #E1E1E1;
     position: sticky;
     top: 0;
 }
@@ -91,7 +92,7 @@ header div div {
 /* Content List */
 
 #ContentListArea {
-    padding-top: 56px;
+    padding-top: 64px;
     padding-bottom: 96px;
 }
 
@@ -99,12 +100,25 @@ header div div {
     padding: 0px 8px 0px 8px;
 }
 
-#box {
+#DeviceLists {
+    margin-bottom: 96px;
+}
+
+#FlexRow {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+#box, #box2 {
     border: 1px solid #E1E1E1;
     padding: 24px;
     border-radius: 12px;
-    width: 100%;
+}
+
+#box {
     text-align: center;
+    width: 100%;
 }
 
 #box img {
@@ -113,14 +127,20 @@ header div div {
     margin-bottom: 8px;
 }
 
-#FlexRow {
-    display: flex;
-    gap: 24px;
-}
-
 #yea2 {
     font-weight: 400;
     font-size: 20px;
+}
+
+
+#box2 div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#box2 div p {
+    margin: 0;
 }
 
 
