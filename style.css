@@ -16,41 +16,9 @@ body {
     align-items: center;
 }
 
-/* Header */
-
-header {
-    background-color: #f1f1f1;
-    display: flex;
-    height: 64px;
-}
-
-header div div {
-    display: flex;
-    gap: 32px;
-}
-
-
-/* Banner */
-
-#Banner {
-    background: linear-gradient(86.79deg, #205C4E 0%, #2A1341 100%);
-}
-
-#bigp {
-    font-size: 56px;
-    line-height: 125%;
-    margin: 96px 0px 96px 0px;
-    color: white;
-}
-
-
-
 b {
     font-weight: 600;
 }
-
-
-
 
 a {
     text-decoration: none;
@@ -73,4 +41,48 @@ a:hover {
 #HeaderLogo:hover {
     color: #0086A4;
     transition: 0.25s
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+
+/* Header */
+
+header {
+    background-color: #f1f1f1;
+    display: flex;
+    height: 64px;
+}
+
+header div div {
+    display: flex;
+    gap: 32px;
+}
+
+
+
+/* Content List */
+
+#ContentListArea {
+    padding-top: 56px;
+    padding-bottom: 96px;
+}
+
+
+
+/* Banner */
+
+#Banner {
+    background: linear-gradient(86.79deg, #205C4E 0%, #2A1341 100%);
+}
+
+#bigp {
+    font-size: 56px;
+    line-height: 125%;
+    margin: 96px 0px 96px 0px;
+    color: white;
 }
