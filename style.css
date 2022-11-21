@@ -139,6 +139,10 @@ header div div {
     width: 100%;
 }
 
+#box:hover {
+    border-color: #0086A4;
+}
+
 #box img {
     width: 156px;
     height: 156px;
